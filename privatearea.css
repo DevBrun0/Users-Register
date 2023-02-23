@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: url(https://www.gamepad-school.fr/wp-content/uploads/2022/01/Background_Prog.jpeg);
+    background-position: 20% 90%;
+    color: white;
+    font-family: arial;
+}
+
+input{
+    display: block;
+    height: 55px;
+    width: 400px;
+    margin: 40px;
+    border-radius: 30px;
+    border: 1px solid white;
+    font-size: 16pt;
+    padding: 10px 20px;
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    outline: none;
+}
+
+#corpo-form{
+    width: 420px;
+    margin: 130 auto 0px auto;
+}
+
+div#corpo-form h1,h2{
+    text-align: center;
+    padding: 20px;
+}
+
+button{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    border:none;
+    cursor: pointer;
+}
