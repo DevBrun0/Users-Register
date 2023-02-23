@@ -1,0 +1,96 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: auto;
+}
+
+body{
+    background-image: url(Background.jpg);
+    background-position: 20% ;
+    background-size: 127%;
+    color: white;
+    font-family: arial;
+}
+
+input{
+    display: block;
+    height: 55px;
+    width: 400px;
+    margin: 40px;
+    border-radius: 30px;
+    border: 1px solid rgb(0, 0, 0);
+    font-size: 16pt;
+    padding: 10px 20px;
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    outline: none;
+}
+
+#corpo-form{
+    width: 420px;
+    margin: 130 auto 0px auto;
+}
+
+/*Formatação Cadastrar*/
+#corpo-form-cad{
+    width: 420px;
+    margin: 100 auto 0px auto;
+}
+/*---------------------*/
+
+div#corpo-form h1,#corpo-form-cad h1{
+    text-align: center;
+    padding: 20px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    position: relative;
+    left: 20px;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+input[type=submit]{
+    background-color: #FF0066;
+    border:none;
+    cursor: pointer;
+}
+
+::-webkit-input-placeholder{
+    color: white;
+}
+
+::-moz-placeholder{
+    color: white;
+}
+
+::-moz-placeholder{
+    color: white;
+}
+
+::-webkit-input-placeholder{
+    color: white;
+}
+
+div#msg-sucesso{
+    width: 400px;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: rgba(50,205,50,.3);
+    border: 1px solid rgb(34,139,34);
+}
+
+div.msg-erro{
+    width: 400px;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: rgba(250, 128, 114,.3);
+    border: 1px solid rgb(165,42,42);
+}
